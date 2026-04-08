@@ -1,0 +1,14 @@
+{
+  "name": "airtable-pdf-downloader",
+  "version": "1.0.0",
+  "description": "Download PDFs from an Airtable view as a ZIP file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "archiver": "^6.0.1",
+    "node-fetch": "^2.7.0"
+  }
+}
